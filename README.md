@@ -6,7 +6,7 @@
 
 ## Requirements
 
-No specific requirements for this project jet. If any, to install them:
+No specific requirements for this project yet. If any, to install them:
 
 ```bash
 pip install -r requirements.txt
