@@ -12,5 +12,6 @@ if __name__ == '__main__':
 
     for sort_alg in sort_algs:
         t1 = time.time()
-        res = sort_alg(args.lst)
+        to_sort = args.lst.copy()
+        res = sort_alg(to_sort)
         print(f"\n{sort_alg.__name__}({args.lst}) = {res}. Time: {round(time.time() - t1, 2)}s.")
